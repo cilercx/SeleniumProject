@@ -8,7 +8,7 @@ namespace NUnitTestProject
         IWebDriver driver = new ChromeDriver();
 
         /// <summary>
-        /// Google sayfasý açýldý.
+        /// Google sayfasi acildi.
         /// </summary>
         [SetUp]
         public void Initiliaze()
@@ -18,7 +18,7 @@ namespace NUnitTestProject
         }
 
         /// <summary>
-        /// Arama kýsmýna Çiler Sürücü Kursu yazildi
+        /// Arama kismina Ciler Surucu Kursu yazildi
         /// </summary>
         [Test]
         public void ExecuteTest()
@@ -30,7 +30,7 @@ namespace NUnitTestProject
         }
 
         /// <summary>
-        /// Uygulama Kapatýldý.
+        /// Uygulama Kapatildi.
         /// </summary>
         [TearDown]
         public void CleanUp()
